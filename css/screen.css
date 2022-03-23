@@ -254,22 +254,22 @@ footer a:hover {color: #cc9900;}
     }
 
     /*Section - Atmosphere*/
-    section.atmosphere article {text-align: center; padding: 220px 0px 0px 0px; background-size: auto 200px;background-position-x: center; min-height: initial;}
+    section.atmosphere article {text-align: center; padding: 230px 0px 0px 0px; background-size: auto 215px;background-position-x: center; min-height: initial;}
 
     /*Section - How-To*/
     section.how-to aside {width: 100%; float:none; margin: 0; position: relative;}
-    section.how-to aside div.content {padding: 20px 20px 20px 150px;}
+    section.how-to aside div.content {padding: 30px 20px 20px 250px;}
     section.how-to aside div.content p {font-size: .9em;}
     section.how-to aside div.content img {
         display: inline-block;
-        width: 125px;
+        width: 220px;
         position: absolute;
         top: 30px;
         left: 0px;
     }   
     section.how-to blockquote {
-        margin: 40px 20px 0px 3px;
-        width: 90%;
+        margin: 40px 0px 0px 0px;
+        width: 100%;
         padding: 1px 0px 20px 0px;
         position: relative;
         border-radius: 30px 30px 0px 0px;
@@ -293,16 +293,15 @@ footer a:hover {color: #cc9900;}
         padding: 8px 15px;
         border: 1px solid rgba(255,255,255,.25);
     }
-
     
     nav ul li a:hover {background:rgba(255,255,255,.25, .2);}
 
     nav ul ul {background: none;}
-    nav ul ul li a {margin-left: 30px; display: none;}
+    nav ul ul li a {margin-left: 30px; display: block;}
     nav ul ul ul li a {margin-left: 60px;}
 
     /*Triangle change*/
-    /*nav a [aria-haspopup="true"]::after {display: none;}*/
+    nav a [aria-haspopup="true"]::after {display: none;}
     nav > ul > li > a[aria-haspopup="true"]::after {
         border-left: 4px solid transparent;
         border-right: 4px solid transparent;
@@ -332,11 +331,11 @@ footer a:hover {color: #cc9900;}
     header div.hero a.btn span {display: none;}
 
     /*Section - Atmosphere*/
-    section.atmosphere article {background-size: auto 180px;}
+    section.atmosphere article {background-size: auto 190px; border green solid 4px;}
 
     /*Section - How-To*/
-    section.how-to aside div.content {padding: 220px 0px 0px 0px; text-align: center;}
-    section.how-to aside div.content img {width: auto; height: 187px;} 
+    section.how-to aside div.content {padding: 240px 0px 0px 0px; text-align: center;}
+    section.how-to aside div.content img {width: auto; height: 197px;} 
     section.how-to blockquote {margin: 30px 0px 0px 0px; width: 100%;}
 
     /*Footer*/
