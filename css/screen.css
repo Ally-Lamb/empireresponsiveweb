@@ -59,15 +59,15 @@ section.main aside .content.who-are-empire {background-image: url(../images/icon
 section.main aside .content.sponsors {background-image: url(../images/icon_boot.svg);}
 
 section.atmosphere {background: #000; padding-top: 30px; padding-bottom: 30px; color: #fff;}
-section.atmosphere article {padding: 0px 20px 0px 360px; background: url(../images/keryn-sam.jpg) no-repeat 0 5px; min-height: 250px;}
+section.atmosphere article {padding: 0px 20px 0px 490px; background: url(../images/keryn-sam.jpg) no-repeat 0 5px; min-height: 250px;}
 section.atmosphere article h2 {color:#cc9900;}
 section.atmosphere article p {font-size: .8em; padding-bottom:1%; text-align: justify;}
 section.atmosphere article a.btn {border-color:#cc9900;}
 
 /* SECTION - HOW-TO*/
 section.how-to {background-color: #cc9900; position: relative;}
-section.how-to aside {width: 30%; float: right; margin-right: 10px;}
-section.how-to aside .content {padding: 30px 30px 20px 0;}
+section.how-to aside {width: 30%; float: right; margin-left: 30px;}
+section.how-to aside .content {padding: 30px 0px 20px 0;border: green solid 4px;}
 section.how-to aside .content img {display: block; margin-bottom: 15px; width: 100%;border-radius: 25px 0px 25px 0px;}
 section.how-to aside .content h4 {margin-bottom: 0; color: #fff;}
 section.how-to aside .content p {margin-bottom: .5em; color: #000;}
@@ -253,9 +253,8 @@ footer a:hover {color: #cc9900;}
         padding-left: 15px;
     }
 
-
     /*Section - Atmosphere*/
-    section.atmosphere article {padding: 260px 20px 0px 0px; background-size: 300px auto; min-height: initial;}
+    section.atmosphere article {text-align: center; padding: 220px 0px 0px 0px; background-size: auto 200px;background-position-x: center; min-height: initial;}
 
     /*Section - How-To*/
     section.how-to aside {width: 100%; float:none; margin: 0; position: relative;}
@@ -332,10 +331,13 @@ footer a:hover {color: #cc9900;}
     header div.hero a.btn {padding: 0px 20px; font-size: .5em;}
     header div.hero a.btn span {display: none;}
 
+    /*Section - Atmosphere*/
+    section.atmosphere article {background-size: auto 180px;}
+
     /*Section - How-To*/
-    section.how-to aside div.content {padding: 240px 20px 20px 0px;}
-    section.how-to aside div.content img {width: auto; height: 170px; top: 30px;} 
-    section.how-to blockquote {margin: 10px 40px 0px 20px;}
+    section.how-to aside div.content {padding: 220px 0px 0px 0px; text-align: center;}
+    section.how-to aside div.content img {width: auto; height: 187px;} 
+    section.how-to blockquote {margin: 30px 0px 0px 0px; width: 100%;}
 
     /*Footer*/
     footer::after {content:''; display: block; clear: both;}
